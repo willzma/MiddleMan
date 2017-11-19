@@ -6,9 +6,9 @@ socketio = SocketIO(app)
 
 @socketio.on('data')
 def test_message(message):
-    #f = open("/Users/ChaityaShah/Downloads/test.h264", 'ab')
+    f = open("/Users/ChaityaShah/Downloads/test.h264", 'ab')
     print(len(message))
-    #f.write(message)
+    f.write(message)
 
 @socketio.on('terminate')
 def suicide(message_count):
