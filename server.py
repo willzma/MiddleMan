@@ -11,8 +11,10 @@ def index():
 
 @socketio.on('data')
 def test_message(message):
+    f = open("/Users/ChaityaShah/Downloads/test.h264", 'ab')
     #emit('my response', {'data': 'got it!'})
-    print(data)
+    print(len(message))
+    f.write(message);
 
 if __name__ == '__main__':
-    socketio.run(app, port=38300)
+    socketio.run(app, port=8080)
