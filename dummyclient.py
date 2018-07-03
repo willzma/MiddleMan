@@ -20,6 +20,6 @@ def terminate(socket_instance):
 
 with SocketIO('localhost', 8080) as socketIO:
     for i in range(1, 8):
-        emit(socketIO, "data", "SKUKTHEDUKUP"*(10**(i)))
+        emit(socketIO, "", "SKUKTHEDUKUP"*(10**(i)))
         print("hey")
     terminate(socketIO)
