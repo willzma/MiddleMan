@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Video Stream Decoding Sample</string>
+    <string name="title_main_activity">Video Stream Decoding Sample</string>
+    <string name="product_information">Product Information</string>
+    <string name="connection_loose">Status: No Product Connected</string>
+    <string name="model_not_available">Model Not Available</string>
+    <string name="glesVersionLabel">"GLES version: "</string>
+    <string name="glesVersionValue">"?"</string>
+    <string name="frameRateLabel">"Frame rate: "</string>
+    <string name="frameRateFormat">"%1$.3f fps (%2$d dropped)"</string>
+    <string name="nowRecording">" [RECORDING]"</string>
+</resources>
